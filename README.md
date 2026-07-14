@@ -185,8 +185,8 @@ SELECT
 FROM hourly_sale
 GROUP BY shift
 ```
---We are not using GROUP BY statement as it will be a complicated query. So we will use CTEs.
---SELECT EXTRACT(HOUR FROM CURRENT_TIME)
+## We are not using GROUP BY statement as it will be a complicated query. So we will use CTEs.
+## SELECT EXTRACT(HOUR FROM CURRENT_TIME)
 ## Findings
 
 - **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
